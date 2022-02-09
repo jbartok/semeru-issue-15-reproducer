@@ -1,0 +1,8 @@
+<project>
+
+    <target name="decompress">
+        <gunzip src="archive.tar.gz"/>
+	<untar src="archive.tar" dest="folder"/>
+    </target>
+
+</project>
